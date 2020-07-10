@@ -37,7 +37,7 @@
   <body>
     <!-- navbar start -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <a class="navbar-brand" href="#">DM</a>
+      <a class="navbar-brand" href="#">Holidays</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -54,7 +54,7 @@
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
+              >Giftcards <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
@@ -70,7 +70,7 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              Dropdown
+              Forex
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">Action</a>
@@ -85,7 +85,7 @@
               href="#"
               tabindex="-1"
               aria-disabled="true"
-              >Disabled</a
+              >Flights</a
             >
           </li>
         </ul>
@@ -106,7 +106,7 @@
 
     <!-- hero start -->
     <section class="hero d-flex align-items-center">
-      <div class="container text-center">
+      <div class="container text-center rellax">
         <span class="text-white font-weight-bold hero-tagline">
           Elishaa Travels & Tourism
         </span>
@@ -115,19 +115,20 @@
           for the Best Travel Destination.
         </p>
 
-        <button class="btn btn-danger font-weight-bold btn-lg mt-3 mt-md-5">
+        <a class="btn btn-danger font-weight-bold btn-lg mt-3 mt-md-5 text-white smooth">
           Scroll down
-        </button>
+        </a>
       </div>
     </section>
     <!-- hero end -->
 
     <!-- intro start -->
-    <section class="py-5">
+    <section class="py-5" id="intro">
       <div class="container d-flex flex-wrap">
         <!-- col left start -->
         <div
-          class="col-12 col-md-6 d-flex align-items-center order-2 order-lg-1"
+          class="col-12 col-md-6 d-flex align-items-center order-2 order-xl-1
+          my-4"
         >
           <div class="container">
             <span class="text-uppercase h5 text-success d-block">
@@ -151,7 +152,7 @@
         </div>
         <!-- col left end -->
         <!-- col right start -->
-        <div class="col-12 col-md-6 mt-4 mt-md-0 order-1 order-lg-2">
+        <div class="col-12 col-xl-6 mt-4 mt-xl-0 order-1 order-xl-2">
           <img src="intro.jpg" alt="Intro" class="img-fluid" />
         </div>
         <!-- col right end -->
@@ -203,11 +204,11 @@
     <!-- intro end -->  
     <!-- services start -->
     <section class="py-5">
-     <div class="container-fluid px-md-0 d-md-flex">
-        <div class="col-12 col-md-6 px-md-0">
+     <div class="container-fluid px-xl-0 d-xl-flex">
+        <div class="col-12 col-xl-6 px-xl-0">
         <img src="zero.jpg" alt="" class="img-fluid" />
     </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-xl-6">
             <div class="accordion" id="accordionExample">
                 <div class="card">
                   <div class="card-header" id="headingOne">
@@ -254,9 +255,9 @@
               </div>
         </div>
      </div>
-     <div class="container-fluid px-md-0 d-md-flex">
+     <div class="container-fluid px-xl-0 d-xl-flex">
       
-        <div class="col-12 col-md-6 d-md-flex align-items-center">
+        <div class="col-12 col-xl-6 d-xl-flex align-items-center">
             <div class="container">
                 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                     <li class="nav-item" role="presentation">
@@ -306,7 +307,7 @@
             </div>
         </div>  
      </div>
-     <div class="col-12 col-md-6 px-md-0">
+     <div class="col-12 col-xl-6 px-xl-0">
         <img src="zero.jpg" alt="" class="img-fluid" />
     </div>
     </section>
@@ -495,11 +496,8 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  </script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
@@ -523,5 +521,13 @@
         },
       });
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js">
+    <script>
+      var rellax = new Rellax(".rellax");
+    </script>
+    <script src="sms.js">
+      </script>
+    <script type="text/javascript">
+      </script>
   </body>
 </html>
